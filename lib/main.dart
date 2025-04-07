@@ -20,14 +20,15 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
             children: [
               Punto1Screen(),
-              Center(child: Text('Página de Favoritos')),
+              Punto2(),
               Punto3Screen(),
             ],
           ),
           bottomNavigationBar: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.thermostat), text: 'C a R'),
-              Tab(icon: Icon(Icons.home), text: 'Inicio'),
+              //Cambiar el icono
+              Tab(icon: Icon(Icons.home), text: 'LY a UA'),
               Tab(icon: Icon(Icons.scale), text: 'N a LB'),
             ],
             labelColor: Colors.blue,
