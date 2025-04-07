@@ -18,17 +18,13 @@ class MyApp extends StatelessWidget {
         length: 3,
         child: Scaffold(
           body: TabBarView(
-            children: [
-              Punto1Screen(),
-              Punto2(),
-              Punto3Screen(),
-            ],
+            children: [Punto1Screen(), Punto2(), Punto3Screen()],
           ),
           bottomNavigationBar: TabBar(
             tabs: [
               Tab(icon: Icon(Icons.thermostat), text: 'C a R'),
               //Cambiar el icono
-              Tab(icon: Icon(Icons.home), text: 'LY a UA'),
+              Tab(icon: Icon(Icons.rocket_launch), text: 'LY a UA'),
               Tab(icon: Icon(Icons.scale), text: 'N a LB'),
             ],
             labelColor: Colors.blue,
