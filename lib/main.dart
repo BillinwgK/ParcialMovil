@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:punto_2/screens/punto1_screen.dart';
+import 'package:punto_2/screens/punto2_screen.dart';
 import 'package:punto_2/screens/punto3_screen.dart';
 
 void main() {
