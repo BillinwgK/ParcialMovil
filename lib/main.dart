@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:punto_2/screens/punto1_screen.dart';
 import 'package:punto_2/screens/punto2_screen.dart';
 import 'package:punto_2/screens/punto3_screen.dart';
 
@@ -18,15 +19,15 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           body: TabBarView(
             children: [
-              Punto2(),
+              Punto1Screen(),
               Center(child: Text('Página de Favoritos')),
               Punto3Screen(),
             ],
           ),
           bottomNavigationBar: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.home), text: 'Ly a UA'),
-              Tab(icon: Icon(Icons.star), text: 'Favoritos'),
+              Tab(icon: Icon(Icons.thermostat), text: 'C a R'),
+              Tab(icon: Icon(Icons.home), text: 'Inicio'),
               Tab(icon: Icon(Icons.scale), text: 'N a LB'),
             ],
             labelColor: Colors.blue,
