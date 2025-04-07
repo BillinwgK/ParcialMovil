@@ -23,8 +23,7 @@ class _ConversionScreen extends State<Punto1Screen>{
       rankine = celsius * (9 / 5) +  491.67; 
     } else {
       rankine = celsius;
-      celsius = (rankine - 491.67) * 5 / 9;
-      
+      celsius = (rankine - 491.67) * 5 / 9;   
     }
     setState(() {
       _result = 'Celsius: ${celsius.toStringAsFixed(2)}\nRankine: ${rankine.toStringAsFixed(2)}';
