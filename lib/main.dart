@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:punto_2/conversion_screen.dart';
+import 'package:punto_2/screens/punto2_screen.dart';
 import 'package:punto_2/screens/punto3_screen.dart';
 
-//prueba
 void main() {
   runApp(MyApp());
 }
