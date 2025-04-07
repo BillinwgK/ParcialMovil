@@ -36,13 +36,6 @@ class ConversionScreenState extends State<ConversionScreen> {
   static const double uaPorAnioLuz = 63241.1;
   static const double anioLuzPorUa = 1 / uaPorAnioLuz;
 
-  @override
-  void dispose() {
-    yearsLuzController.dispose();
-    uaController.dispose();
-    super.dispose();
-  }
-
   void convert() {
     if (selectedConversion == 'lyToUA') {
       if (yearsLuzController.text.isEmpty) return;
