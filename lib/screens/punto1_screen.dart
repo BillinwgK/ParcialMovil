@@ -34,14 +34,10 @@ class _ConversionScreen extends State<Punto1Screen>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
         centerTitle: true,
-        title: Text("Conversor Celsius - Rankine",
-        style: TextStyle(
-          fontWeight: FontWeight.bold,
-          color: Color.fromARGB(255, 0, 0, 0),
-          fontSize: 20,
-        )
-        )
+        title: Text("Conversor Celsius - Rankine")
         ),
       body:
         Column(

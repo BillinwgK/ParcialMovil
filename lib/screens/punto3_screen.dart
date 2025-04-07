@@ -27,6 +27,7 @@ class _Punto3ScreenState extends State<Punto3Screen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
         title: Center(child: Text('Newtons a Libra Fuerza')),
       ),
       body: Center(

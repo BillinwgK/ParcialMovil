@@ -6,6 +6,7 @@ class Punto2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Conversor Astronómico',
       theme: ThemeData(
         primarySwatch: Colors.blue,
