@@ -22,10 +22,9 @@ class MyApp extends StatelessWidget {
           ),
           bottomNavigationBar: TabBar(
             tabs: [
-              Tab(icon: Icon(Icons.thermostat), text: 'C a R'),
-              //Cambiar el icono
-              Tab(icon: Icon(Icons.rocket_launch), text: 'LY a UA'),
-              Tab(icon: Icon(Icons.scale), text: 'N a LB'),
+              Tab(icon: Icon(Icons.thermostat), text: 'Temperatura'),
+              Tab(icon: Icon(Icons.rocket_launch), text: 'Distancia'),
+              Tab(icon: Icon(Icons.scale), text: 'Peso'),
             ],
             labelColor: Colors.blue,
             unselectedLabelColor: Colors.grey,
